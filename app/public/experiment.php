@@ -1,4 +1,5 @@
-<a href="">aaa</a>
+<a href="https://example.com">aaa</a>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
