@@ -56,14 +56,14 @@
     
     <div class="small-image-container" style="bottom: -5vw; left: 35vw;">
         <a href="/experiment">
-            <img src="images/depanmsu.png" style="width: 42vw; height: auto;">
+            <img src="images/depanmsu.png" class="small-image" style="width: 42vw; height: auto;">
         </a>
     </div>
     <div class="small-image-container" style="top: -5vw; left: 0vw;">
-        <img src="images/kirimsu.png" style="width: 86vw; height: auto;">
+        <img src="images/kirimsu.png" class="small-image" style="width: 86vw; height: auto;">
     </div>
     <div class="small-image-container" style="top: -5vw; left: 0vw;">
-        <img src="images/vipmsu.png" style="width: 86vw; height: auto;">
+        <img src="images/vipmsu.png" class="small-image" style="width: 86vw; height: auto;">
     </div>
 
 </body>
