@@ -17,7 +17,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('/images/home.png'); 
+            background-image: url('image/home.png'); 
             background-size: cover;
             background-position: center;
             transition: filter 0.3s;
@@ -153,25 +153,25 @@
     <div class="full-image"></div>
     
     <div class="small-image-container" style="bottom: -5vw; left: 35vw;">
-        <img src="/images/mobil.png" alt="Small Image 1" class="small-image" data-popup="mobil" style="width: 42vw; height: auto;">
+        <img src="images/mobil.png" alt="Small Image 1" class="small-image" data-popup="mobil" style="width: 42vw; height: auto;">
     </div>
     <div class="small-image-container" style="top: -5vw; left: 0vw;">
-        <img src="/images/restoran.png" alt="Small Image 3" class="small-image" data-popup="restoran" style="width: 86vw; height: auto;">
+        <img src="images/restoran.png" alt="Small Image 3" class="small-image" data-popup="restoran" style="width: 86vw; height: auto;">
         <div class="tooltip">RESTORAN</div>
     </div>
 
     <div class="popup" id="mobil">
         <div class="popup-content" style="background-color: transparent;">
             <div class="card-container">
-                <div class="card"><img src="/images/woman.png" style="width:30%"></div>
-                <div class="card"><img src="/images/man.png" style="width:30%"></div>
-                <div class="card"><img src="/images/woman.png" style="width:30%"></div>
-                <div class="card"><img src="/images/man.png" style="width:30%"></div>
-                <div class="card"><img src="/images/woman.png" style="width:30%"></div>
-                <div class="card"><img src="/images/man.png" style="width:30%"></div>
-                <div class="card"><img src="/images/woman.png" style="width:30%"></div>
-                <div class="card"><img src="/images/man.png" style="width:30%"></div>
-                <div class="card"><img src="/images/woman.png" style="width:30%"></div>
+                <div class="card"><img src="images/woman.png" style="width:30%"></div>
+                <div class="card"><img src="images/man.png" style="width:30%"></div>
+                <div class="card"><img src="images/woman.png" style="width:30%"></div>
+                <div class="card"><img src="images/man.png" style="width:30%"></div>
+                <div class="card"><img src="images/woman.png" style="width:30%"></div>
+                <div class="card"><img src="images/man.png" style="width:30%"></div>
+                <div class="card"><img src="images/woman.png" style="width:30%"></div>
+                <div class="card"><img src="images/man.png" style="width:30%"></div>
+                <div class="card"><img src="images/woman.png" style="width:30%"></div>
             </div>
             <span class="popup-close" data-popup-close="mobil" style="color: white">Close</span>
         </div>
@@ -181,13 +181,13 @@
         <div class="popup-content">
             <div class="slideshow-container">
                 <div class="slides">
-                    <img src="/images/slide1.png" style="width:100%">
+                    <img src="image/slide1.png" style="width:100%">
                 </div>
                 <div class="slides">
-                    <img src="/images/slide2.webp" style="width:100%">
+                    <img src="image/slide2.webp" style="width:100%">
                 </div>
                 <div class="slides">
-                    <img src="/images/slide3.webp" style="width:100%">
+                    <img src="image/slide3.webp" style="width:100%">
                 </div>
             </div>
             <span class="popup-close" data-popup-close="restoran">Close</span>
