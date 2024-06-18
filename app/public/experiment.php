@@ -181,13 +181,13 @@
         <div class="popup-content">
             <div class="slideshow-container">
                 <div class="slides">
-                    <img src="image/slide1.png" style="width:100%">
+                    <img src="images/slide1.png" style="width:100%">
                 </div>
                 <div class="slides">
-                    <img src="image/slide2.webp" style="width:100%">
+                    <img src="images/slide2.webp" style="width:100%">
                 </div>
                 <div class="slides">
-                    <img src="image/slide3.webp" style="width:100%">
+                    <img src="images/slide3.webp" style="width:100%">
                 </div>
             </div>
             <span class="popup-close" data-popup-close="restoran">Close</span>
