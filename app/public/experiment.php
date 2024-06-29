@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BurhanIntPic</title>
     <style>
         html, body {
@@ -127,9 +127,9 @@
             box-sizing: border-box;
             text-align: center;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             .small-image {
-                width: 10vw;
+                width: 25%;
                 height: auto;
             }
             .tooltip {
@@ -137,9 +137,9 @@
                 padding: 3px;
             }
         }
-        @media (max-width: 480px) {
+        @media (max-width: 767px) {
             .small-image {
-                width: 10vw;
+                width: 50%;
                 height: auto;
             }
             .tooltip {
@@ -152,11 +152,11 @@
 <body>
     <div class="full-image"></div>
     
-    <div class="small-image-container" style="bottom: -5vw; left: 35vw;">
-        <img src="images/mobil.png" alt="Small Image 1" class="small-image" data-popup="mobil" style="width: 42vw; height: auto;">
+    <div class="small-image-container" style="bottom: -5%; left: 35%;">
+        <img src="images/mobil.png" alt="Small Image 1" class="small-image" data-popup="mobil">
     </div>
-    <div class="small-image-container" style="top: -5vw; left: 0vw;">
-        <img src="images/restoran.png" alt="Small Image 3" class="small-image" data-popup="restoran" style="width: 86vw; height: auto;">
+    <div class="small-image-container" style="top: -5%; left: 0%;">
+        <img src="images/restoran.png" alt="Small Image 3" class="small-image" data-popup="restoran">
         <div class="tooltip">RESTORAN</div>
     </div>
 
@@ -181,13 +181,13 @@
         <div class="popup-content">
             <div class="slideshow-container">
                 <div class="slides">
-                    <img src="images/slide1.png" style="width:100%">
+                    <img src="image/slide1.png" style="width:100%">
                 </div>
                 <div class="slides">
-                    <img src="images/slide2.webp" style="width:100%">
+                    <img src="image/slide2.webp" style="width:100%">
                 </div>
                 <div class="slides">
-                    <img src="images/slide3.webp" style="width:100%">
+                    <img src="image/slide3.webp" style="width:100%">
                 </div>
             </div>
             <span class="popup-close" data-popup-close="restoran">Close</span>
