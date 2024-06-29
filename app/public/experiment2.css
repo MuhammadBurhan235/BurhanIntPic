@@ -1,6 +1,29 @@
 @import url("https://fonts.cdnfonts.com/css/ica-rubrik-black");
 @import url("https://fonts.cdnfonts.com/css/poppins");
 
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c04545;
+  background-image: repeating-linear-gradient(
+      to right,
+      transparent 0 100px,
+      #25283b22 100px 101px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0 100px,
+      #25283b22 100px 101px
+    );
+  font-family: Poppins, sans-serif; /* Tambahkan font default */
+}
+
+/* Banner and Slider */
 .banner {
   width: 100%;
   height: 100vh;
@@ -38,6 +61,7 @@
       calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
     )
     translateZ(50vw);
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -61,37 +85,35 @@
   left: -100%;
 }
 
+/* Card Styles */
 .card-body {
   text-align: justify;
-  padding: 20px; /* Padding dalam card */
+  padding: 20px;
 }
 
-/* Contoh CSS untuk card title */
 .card-title {
-  font-size: 1.2rem; /* Ukuran font judul card */
-  font-weight: bold; /* Ketebalan font judul card */
-  margin-bottom: 10px; /* Jarak bawah dari judul ke konten */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-/* Contoh CSS untuk card text */
 .card-text {
-  font-size: 1rem; /* Ukuran font teks card */
-  line-height: 1.6; /* Tinggi baris teks */
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-/* Contoh CSS untuk card link */
 .card-link {
-  text-decoration: none; /* Menghapus garis bawah pada link */
-  color: #007bff; /* Warna teks link */
+  text-decoration: none;
+  color: #007bff;
 }
 
-/* Contoh CSS untuk card footer */
 .card-footer {
-  background-color: #f7f7f7; /* Warna latar belakang footer card */
-  padding: 10px; /* Padding dalam footer card */
-  text-align: center; /* Posisi teks tengah dalam footer card */
+  background-color: #f7f7f7;
+  padding: 10px;
+  text-align: center;
 }
 
+/* Content */
 .banner .content {
   position: absolute;
   bottom: 0;
@@ -108,7 +130,7 @@
 }
 
 .banner .content h1 {
-  font-family: "ICA Rubrik";
+  font-family: "ICA Rubrik", sans-serif;
   font-size: 7em;
   line-height: 0.5em;
   color: #25283b;
@@ -116,15 +138,14 @@
 }
 
 .banner .content h1::after {
-  inset: 0;
-  font-size: 0.5em;
   content: attr(data-content);
+  font-size: 0.5em;
   color: #25283b;
   -webkit-text-stroke: 2px #d2d2d2;
 }
 
 .banner .content .author {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   text-align: right;
   max-width: 200px;
 }
@@ -146,6 +167,7 @@
   z-index: 1;
 }
 
+/* Responsive Styles */
 @media screen and (max-width: 1023px) {
   .banner .slider {
     width: 160px;
@@ -233,12 +255,13 @@
   }
 }
 
+/* Navigation */
 .navigation {
   position: fixed;
-  top: 20px; /* Atur jarak dari atas */
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1000; /* Pastikan navigasi di atas konten lain */
+  z-index: 1000;
   display: flex;
   gap: 20px;
   background-color: rgba(255, 255, 255, 0.179);
@@ -263,17 +286,18 @@
   background-color: #ddd;
 }
 
+/* Pause Button */
 .ppp {
-  top: 20px; /* Atur jarak dari atas */
+  position: relative;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 3; /* Pastikan navigasi di atas konten lain */
+  z-index: 3;
   gap: 20px;
   background-color: rgba(255, 255, 255, 0.179);
   padding: 10px;
   border-radius: 5px;
   margin-top: 500px;
-  position: relative;
 }
 
 .ppp button {
